@@ -85,7 +85,7 @@ export default {
       const phoneNumber = '6285163523959'
       const message = `*${this.inputName}* and *${'0' + this.inputPhone}*`
       const url = `https://wa.me/${phoneNumber}?text=${message}`
-      window.open(url, '_blank')
+      window.open(url)
     },
   },
 }
